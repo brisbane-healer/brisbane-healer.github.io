@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'What is prana? '
+title: 'What is prana?'
 categories:
 - prana
 - healing
