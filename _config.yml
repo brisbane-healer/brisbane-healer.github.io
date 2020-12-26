@@ -9,7 +9,7 @@ include:
 - _pages
 permalink: "/:title/"
 plugins:
-- jekyll-menus
+- jekyll-menu
 - jekyll-feed
 - jekyll-sitemap
 - jekyll-paginate
@@ -31,14 +31,12 @@ authors:
     email: fakemail@gmail.com
     twitter: https://twitter.com/wowthemesnet
 defaults:
+- scope: ''
+  values: ''
 - scope:
     path: _posts
   values:
     layout: post
     author: sal
     avatar: "/assets/images/avatar1.jpg"
-- scope:
-    path: _pages
-  values:
-    layout: page
 paginate: "10"
