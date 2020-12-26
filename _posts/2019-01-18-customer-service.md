@@ -1,21 +1,35 @@
 ---
 layout: post
-title: What is Jekyll
-author: jane
+title: Pranic Psychotherapy
+author: bryna
 categories:
-- Jekyll
-- tutorial
-image: assets/images/11.jpg
+- pranic
+- psychotherapy
+- brisbane
+- healing
+image: "/assets/images/pranic-psychotherapy.jpg"
 
 ---
-No more databases, comment moderation, or pesky updates to install-just your content. Markdown, Liquid, HTML & CSS go in. Static sites come out ready for deployment. Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.
+## Pranic Psychotherapy
 
-Sick of dealing with hosting companies? GitHub Pages are powered by Jekyll, so you can easily deploy your site using GitHub for free-custom domain name and all.
+The energy body holds a collection of thoughts and emotions. Chakras are record keepers; they hold and record information. 
 
-## What is Jekyll?
+Trauma and poisonous thought forms and emotions can get stuck in the chakras and aura affecting how a person thinks, acts and feels. 
 
-Jekyll is a simple, blog-aware, static site generator.
+Pranic psychotherapy helps clear repetitive negative thinking patterns and trauma by removing these energies from the aura and chakras.
 
-You create your content as text files (Markdown), and organize them into folders. Then, you build the shell of your site using Liquid-enhanced HTML templates. Jekyll automatically stitches the content and templates together, generating a website made entirely of static assets, suitable for uploading to any server.
+![](/assets/images/agave-plant.jpg)
 
-Jekyll happens to be the engine behind GitHub Pages, so you can host your project’s Jekyll page/blog/website on GitHub’s servers for free.
+The negative energies that can get trapped in the energetic anatomy can cause cracks and tears in the auric field as well as the protective webbing of the chakras. This can also occur from drug abuse and other unhealthy lifestyle habits. Damaged auras or protective webbing of the chakras limits the body’s defences from illnesses and causes psychic intrusion in the energy field.
+
+Clearing these energies from our chakras and repairing and sealing the auric field can affect a person’s attitude towards life, enhance their creativity and improve their success. Pranic psychotherapy can clear stress and anxiety, heal depression, and stop addictive behaviours. It has also been very effective for treating people suffering from schizophrenia or drug psychosis. Having clean energized chakras and a clean sealed auric field allows a person to have a healthy, happy, balanced life.
+
+##### Pranic Psychotherapy has been successful in treating:
+
+* Stress, Irritability, Anxiety, Grief and Hysteria
+* Phobias, Trauma, Obsessions and Compulsions
+* Addiction: Smoking, Alcohol and Drug Addiction
+* Depression
+* Violent and Paranoid Patients
+* Schizophrenic Patients
+* Mentally Retarded Patients
