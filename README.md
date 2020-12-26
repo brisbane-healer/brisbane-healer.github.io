@@ -1,3 +1,6 @@
+[![Backup Status](https://cloudback.it/badge/brisbane-healer/brisbane-healer.github.io)](https://cloudback.it)
+
+
 # Jekyll Mundana Forestry starter
 
 Theme designed and developed by [wowthemes](https://github.com/wowthemesnet/mundana-theme-jekyll),
