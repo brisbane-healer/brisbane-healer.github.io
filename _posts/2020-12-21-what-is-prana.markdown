@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'What is prana?'
+title: What is prana?
 categories:
 - prana
 - healing
 - brisbane
-image: "/assets/images/what-is-prana.jpg"
+image: "/assets/images/pranic-crystal-healing1.jpg"
 author: bryna
 
 ---
