@@ -9,7 +9,7 @@ tags: [sticky]
 
 Pranic Healing presents a unique holistic approach used to treat a variety of ailments, from fever to heart conditions to cancer. By tapping into pranic or "ki" (chi) energy - the universal force which is our life force - the author presents techniques for beginning, intermediate and advanced healing.
 
-#### Early 18th century woodcut of Bucharest
+#### Pranic healing influences your natural life force
 
 Pranic healing is a no-touch modality where all types of illnesses can be treated. It is a highly developed and tested system of energy-based healing techniques, using “prana" – the vital energy life-force to balance, harmonise and transform your body's energy processes. The Chinese refer to this subtle energy as "Chi" in acupuncture. It is also called "Ruha" in Hebrew or the "Breath of Life" in the Old Testament.
 
