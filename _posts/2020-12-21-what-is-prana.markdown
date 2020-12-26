@@ -5,7 +5,7 @@ categories:
 - prana
 - healing
 - brisbane
-image: "/assets/images/pranic-crystal-healing1.jpg"
+image: "/assets/images/what-is-prana.jpg"
 author: bryna
 
 ---
