@@ -3,19 +3,19 @@ layout: post
 title: Pranic Healing
 author: bryna
 categories:
-- pranic
-- healing
-- brisbane
+  - pranic
+  - healing
+  - brisbane
 image: "/assets/images/pranic-healer.jpg"
 tags:
-- featured
-
+  - featured
 ---
-#### Pranic healing is an ancient science 
 
-utilizing pranic energy to heal all types of illnesses in the body. It has been called many names such as medical qi gong or shamanic healing. 
+#### Pranic healing is an ancient science
 
-This very powerful and effective form of energetic medicine utilise prana to balance, harmonize and transform the body’s processes. 
+utilizing Pranic energy to heal all types of illnesses in the body. It has been called many names such as medical qi gong or shamanic healing.
+
+This very powerful and effective form of energetic medicine utilise prana to balance, harmonize and transform the body’s processes.
 
 Pranic healing is a no- touch, no drug healing system that was rediscovered by the founder of Modern Pranic healing Grand Master Choa Kok Sui.
 
@@ -27,19 +27,19 @@ Self-recovery, and life force. Our bodies possess the innate ability to heal the
 
 ###### Advanced Pranic healing can treat different systems in the body such as:
 
-* Immunity and Defense System
-* Disorders of the Eye, Ear and Throat
-* Skin Disorders
-* Heart and Circulatory Ailments
-* Respiratory Ailments
-* Gastrointestinal Ailments
-* Urinary Ailments
-* Reproductive Ailments
-* Endocrine Ailments
-* Skeletal and Muscular Disorders
-* Blood Disorders
-* Brain and Nervous System Disorders
-* Tumors and Cancer
+- Immunity and Defense System
+- Disorders of the Eye, Ear and Throat
+- Skin Disorders
+- Heart and Circulatory Ailments
+- Respiratory Ailments
+- Gastrointestinal Ailments
+- Urinary Ailments
+- Reproductive Ailments
+- Endocrine Ailments
+- Skeletal and Muscular Disorders
+- Blood Disorders
+- Brain and Nervous System Disorders
+- Tumors and Cancer
 
 ![](/assets/images/pranic-energy.jpg)
 
