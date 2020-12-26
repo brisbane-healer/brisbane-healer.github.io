@@ -1,10 +1,15 @@
 ---
 layout: post
-title:  "Powerful things you can do with the Markdown editor"
-author: sal
-categories: [ Jekyll, tutorial ]
+title: Pranic Healing
+author: bryna
+categories:
+- pranic
+- healing
+- brisbane
 image: assets/images/4.jpg
-tags: [featured]
+tags:
+- featured
+
 ---
 There are lots of powerful things you can do with the Markdown editor
 
