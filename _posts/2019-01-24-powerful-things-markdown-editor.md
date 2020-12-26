@@ -6,50 +6,41 @@ categories:
 - pranic
 - healing
 - brisbane
-image: assets/images/4.jpg
+image: "/assets/images/pranic-healer.jpg"
 tags:
 - featured
 
 ---
-There are lots of powerful things you can do with the Markdown editor
+#### Pranic healing is an ancient science 
 
-If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
+utilizing pranic energy to heal all types of illnesses in the body. It has been called many names such as medical qi gong or shamanic healing. 
 
-As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.
+This very powerful and effective form of energetic medicine utilise prana to balance, harmonize and transform the body’s processes. 
 
+Pranic healing is a no- touch, no drug healing system that was rediscovered by the founder of Modern Pranic healing Grand Master Choa Kok Sui.
 
-## Special formatting
+![](/assets/images/pranic-healing-ancient-science.jpg)
 
-As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:
+#### Pranic healing is centred around two main principles
 
-+ ~~strike through~~
-+ ==highlight==
-+ \*escaped characters\*
+Self-recovery, and life force. Our bodies possess the innate ability to heal themselves and pranic healers rapidly accelerate healing by increasing one’s life force or prana. Pranic healing involves locating any blockages in the chakras and energetic body. Once these disturbances are found they will be cleansed and removed by the practitioner using specific pranic healing techniques and protocols. The affected area will then be revitalized with new clean pranic energy, so that your body can rejuvenate and heal itself naturally and rapidly. With many conditions healing can be achieved instantly.
 
+###### Advanced Pranic healing can treat different systems in the body such as:
 
-## Writing code blocks
+* Immunity and Defense System
+* Disorders of the Eye, Ear and Throat
+* Skin Disorders
+* Heart and Circulatory Ailments
+* Respiratory Ailments
+* Gastrointestinal Ailments
+* Urinary Ailments
+* Reproductive Ailments
+* Endocrine Ailments
+* Skeletal and Muscular Disorders
+* Blood Disorders
+* Brain and Nervous System Disorders
+* Tumors and Cancer
 
-There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, `like this`. Larger snippets of code can be displayed across multiple lines using triple back ticks:
+![](/assets/images/pranic-energy.jpg)
 
-```
-.my-link {
-    text-decoration: underline;
-}
-```
-
-If you want to get really fancy, you can even add syntax highlighting using Rouge.
-
-
-![walking]({{ '/assets/images/3.jpg' | relative_url }})
-
-## Reference lists
-
-The quick brown jumped over the lazy.
-
-Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.
-
-## Full HTML
-
-Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:
-
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+Pranic healing is not intened to replace orthodox medicine.
