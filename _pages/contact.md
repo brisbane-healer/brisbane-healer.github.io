@@ -3,16 +3,21 @@ title: "Contact"
 permalink: "/contact.html"
 ---
 
-<form action="https://formspree.io/{{site.email}}" method="POST">    
-<p class="mb-4">Please send your message to {{site.name}}. We will reply as soon as possible!</p>
-<div class="form-group row">
-<div class="col-md-6">
-<input class="form-control" type="text" name="name" placeholder="Name*" required>
-</div>
-<div class="col-md-6">
-<input class="form-control" type="email" name="_replyto" placeholder="E-mail Address*" required>
-</div>
-</div>
-<textarea rows="8" class="form-control mb-3" name="message" placeholder="Message*" required></textarea>    
-<input class="btn btn-success" type="submit" value="Send">
-</form>
+<script src="https://unpkg.com/tripetto-runner-foundation"></script>
+<script src="https://unpkg.com/tripetto-runner-autoscroll"></script>
+<script src="https://unpkg.com/tripetto-services"></script>
+<script>
+var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiRzFLVVRMR2JQMGtuY0Z1QkUyR25Ub2VhKzFEZjU2UXRWNFJ2K05YRWJrWT0iLCJkZWZpbml0aW9uIjoiYmIvTk5CeW11UUdBeWdMY3BmZlhOYU9VaFlUU2hlZURFTUo1WHE3K2tIbz0iLCJ0eXBlIjoiY29sbGVjdCJ9.hLz694Py6JaFE-11vTEUPrIdP6OqPHiJ7ZRDP0dHeGM" });
+
+TripettoAutoscroll.run({
+	element: document.body, /* Or supply your own element here */
+	definition: tripetto.definition,
+	styles: tripetto.styles,
+	l10n: tripetto.l10n,
+	locale: tripetto.locale,
+	translations: tripetto.translations,
+	attachments: tripetto.attachments,
+	onSubmit: tripetto.onSubmit,
+	persistent: true
+});
+</script>
