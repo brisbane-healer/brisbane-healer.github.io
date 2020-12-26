@@ -9,6 +9,7 @@ include:
 - _pages
 permalink: "/:title/"
 plugins:
+- jekyll-menus
 - jekyll-feed
 - jekyll-sitemap
 - jekyll-paginate
