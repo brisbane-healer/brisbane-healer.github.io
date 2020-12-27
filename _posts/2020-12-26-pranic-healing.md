@@ -3,9 +3,6 @@ layout: post
 title: Pranic Healing
 author: bryna
 categories:
-- pranic
-- healing
-- brisbane
 - services
 image: "/assets/images/pranic-healer.jpg"
 tags:
