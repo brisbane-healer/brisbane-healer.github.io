@@ -29,12 +29,36 @@
 
     <!-- jQuery 3.5.1 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PJWJ8XT");
+    </script>
+    <!-- End Google Tag Manager -->
 
     <!-- Uncompressed Scripts -->
     <script src="js/slides.js?52351" type="text/javascript"></script>
     <script src="js/plugins.js?52351" type="text/javascript"></script>
   </head>
   <body class="slides animated demo-1 loading">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PJWJ8XT"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <svg
       xmlns="http://www.w3.org/2000/svg"
       style="display: none"
@@ -317,71 +341,71 @@
       const float wave = 1.0;
 
       vec2 rotate(vec2 v, float angle) {
-      	float c = cos(angle);
-      	float s = sin(angle);
-      	return v * mat2(c, -s, s, c);
+        float c = cos(angle);
+        float s = sin(angle);
+        return v * mat2(c, -s, s, c);
       }
 
       vec3 coordToHex(vec2 coord, float scale, float angle) {
-      	vec2 c = rotate(coord, angle);
-      	float q = (1.0 / 3.0 * sqrt(3.0) * c.x - 1.0 / 3.0 * c.y) * scale;
-      	float r = 2.0 / 3.0 * c.y * scale;
-      	return vec3(q, r, -q - r);
+        vec2 c = rotate(coord, angle);
+        float q = (1.0 / 3.0 * sqrt(3.0) * c.x - 1.0 / 3.0 * c.y) * scale;
+        float r = 2.0 / 3.0 * c.y * scale;
+        return vec3(q, r, -q - r);
       }
 
       vec3 hexToCell(vec3 hex, float m) {
-      	return fract(hex / m) * 2.0 - 1.0;
+        return fract(hex / m) * 2.0 - 1.0;
       }
 
       float absMax(vec3 v) {
-      	return max(max(abs(v.x), abs(v.y)), abs(v.z));
+        return max(max(abs(v.x), abs(v.y)), abs(v.z));
       }
 
       float nsin(float value) {
-      	return sin(value * TWO_PI) * 0.5 + 0.5;
+        return sin(value * TWO_PI) * 0.5 + 0.5;
       }
 
       float hexToFloat(vec3 hex, float amt) {
-      	return mix(absMax(hex), 1.0 - length(hex) / sqrt(3.0), amt);
+        return mix(absMax(hex), 1.0 - length(hex) / sqrt(3.0), amt);
       }
 
       float calc(vec3 hex, float time, float len) {
-      	float value = 0.0;
+        float value = 0.0;
 
-      	for (int i = 0; i < layers; i++) {
-      		vec3 cell = hexToCell(hex, 1.0 + float(i));
-      		value += nsin(
-      			hexToFloat(
-      				cell,
-      				nsin(len * wave + time + float(i) / float(layers))
-      			) * detail + nsin(time * 0.5)
-      		);
-      	}
+        for (int i = 0; i < layers; i++) {
+          vec3 cell = hexToCell(hex, 1.0 + float(i));
+          value += nsin(
+            hexToFloat(
+              cell,
+              nsin(len * wave + time + float(i) / float(layers))
+            ) * detail + nsin(time * 0.5)
+          );
+        }
 
-      	return value / float(layers);
+        return value / float(layers);
       }
 
       void main(void) {
-      	vec2 tx = (gl_FragCoord.xy / resolution.xy - 0.5) * vec2(aspect, 1.0) * 2.0;
-      	float time = globaltime * timescale - scroll;
-      	float invScroll = 1.0 - scroll;
-      	float rgb[3];
-      	float len = 1.0 - length(tx) * 0.3;
-      	float zoom = nsin(time * 0.1) + len * velocity * 3.0;
-      	float angle = TWO_PI * nsin(time * 0.05) + PI * len * scroll;
-      	vec3 hex = coordToHex(tx, gridSize * zoom, angle);
+        vec2 tx = (gl_FragCoord.xy / resolution.xy - 0.5) * vec2(aspect, 1.0) * 2.0;
+        float time = globaltime * timescale - scroll;
+        float invScroll = 1.0 - scroll;
+        float rgb[3];
+        float len = 1.0 - length(tx) * 0.3;
+        float zoom = nsin(time * 0.1) + len * velocity * 3.0;
+        float angle = TWO_PI * nsin(time * 0.05) + PI * len * scroll;
+        vec3 hex = coordToHex(tx, gridSize * zoom, angle);
 
-      	for (int i = 0; i < 3; i++) {
-      		float time2 = time + float(i) * displace * invScroll;
-      		rgb[i] = pow(calc(hex, time2, len), 3.0) * (0.2 + 0.8 * sin(PI * len * 0.5));
-      	}
+        for (int i = 0; i < 3; i++) {
+          float time2 = time + float(i) * displace * invScroll;
+          rgb[i] = pow(calc(hex, time2, len), 3.0) * (0.2 + 0.8 * sin(PI * len * 0.5));
+        }
 
-      	gl_FragColor = vec4(
-      		rgb[0] * (1.0 - scroll * 0.2),
-      		rgb[1] * invScroll,
-      		(rgb[2] + 0.2) * invScroll,
-      		1.0
-      	);
+        gl_FragColor = vec4(
+          rgb[0] * (1.0 - scroll * 0.2),
+          rgb[1] * invScroll,
+          (rgb[2] + 0.2) * invScroll,
+          1.0
+        );
       }
     </script>
     <script src="js/demo1.js"></script>
