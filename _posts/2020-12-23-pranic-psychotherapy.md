@@ -3,10 +3,6 @@ layout: post
 title: Pranic Psychotherapy
 author: bryna
 categories:
-- pranic
-- psychotherapy
-- brisbane
-- healing
 - services
 image: "/assets/images/pranic-psychotherapy.jpg"
 
