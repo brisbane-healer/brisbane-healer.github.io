@@ -1,10 +1,7 @@
 ---
 layout: post
 title: What is prana?
-categories:
-- prana
-- healing
-- brisbane
+categories: []
 image: "/assets/images/what-is-prana.jpg"
 author: bryna
 
