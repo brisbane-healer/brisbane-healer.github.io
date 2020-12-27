@@ -3,10 +3,6 @@ layout: post
 title: Pranic Crystal Healing
 author: jane
 categories:
-- pranic
-- crystal
-- healing
-- brisbane
 - services
 image: "/assets/images/pranic-crystal-healing.jpg"
 tags:
