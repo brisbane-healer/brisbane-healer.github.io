@@ -1,8 +1,6 @@
 ---
 layout: post
-categories:
-- prana
-- brisbane
+categories: []
 title: Healthy / Unhealthy Prana
 author: bryna
 image: "/assets/images/healthy-prana.JPG"
