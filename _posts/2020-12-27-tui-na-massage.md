@@ -1,9 +1,6 @@
 ---
 layout: post
 categories:
-- tui na
-- massage
-- brisbane
 - services
 title: Tui Na Massage
 author: bryna
