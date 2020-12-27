@@ -3,9 +3,7 @@ layout: post
 title: Pranic Healing in Brisbane
 author: bryna
 categories:
-- pranic
-- healing
-- brisbane
+- sticky
 image: "/assets/images/brisbane-pranic-healing.jpg"
 tags:
 - sticky
