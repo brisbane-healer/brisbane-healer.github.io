@@ -3,14 +3,15 @@ layout: post
 title: Pranic Healing
 author: bryna
 categories:
-  - pranic
-  - healing
-  - brisbane
+- pranic
+- healing
+- brisbane
+- services
 image: "/assets/images/pranic-healer.jpg"
 tags:
-  - featured
----
+- featured
 
+---
 #### Pranic healing is an ancient science
 
 utilizing Pranic energy to heal all types of illnesses in the body. It has been called many names such as medical qi gong or shamanic healing.
