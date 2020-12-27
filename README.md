@@ -1,9 +1,9 @@
 [![Backup Status](https://cloudback.it/badge/brisbane-healer/brisbane-healer.github.io)](https://cloudback.it)
 
 
-# Jekyll Mundana Forestry starter
+# Brisbane Healer - Golden Path
 
-Theme designed and developed by [wowthemes](https://github.com/wowthemesnet/mundana-theme-jekyll),
+Website theme designed and developed by [wowthemes](https://github.com/wowthemesnet/mundana-theme-jekyll),
 
 ![Homepage preview](./assets/images/screenshot.jpg)
 
