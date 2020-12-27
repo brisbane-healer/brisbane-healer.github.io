@@ -3,6 +3,10 @@
 
 # Brisbane Healer - Golden Path
 
+ <a href="https://trackgit.com">
+<img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/kj77i7hdtbdr1qzrq2kk" alt="trackgit-views" />
+</a>
+
 Website theme designed and developed by [wowthemes](https://github.com/wowthemesnet/mundana-theme-jekyll),
 
 ![Homepage preview](./assets/images/screenshot.jpg)
