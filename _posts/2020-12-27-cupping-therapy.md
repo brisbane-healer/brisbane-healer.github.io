@@ -1,9 +1,6 @@
 ---
 layout: post
 categories:
-- cupping
-- therapy
-- brisbane
 - services
 title: Cupping Therapy
 author: bryna
