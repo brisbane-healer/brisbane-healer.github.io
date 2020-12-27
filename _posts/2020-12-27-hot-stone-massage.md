@@ -1,10 +1,6 @@
 ---
 layout: post
 categories:
-- hot
-- stone
-- massage
-- brisbane
 - services
 title: Hot Stone Massage
 author: bryna
