@@ -7,6 +7,7 @@ categories:
 - crystal
 - healing
 - brisbane
+- services
 image: "/assets/images/pranic-crystal-healing.jpg"
 tags:
 - featured
