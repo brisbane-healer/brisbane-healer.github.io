@@ -27,6 +27,6 @@ defaults:
       path: _posts
     values:
       layout: post
-      author: sal
+      author: bryna
       avatar: "/assets/images/avatar1.jpg"
 paginate: "10"
