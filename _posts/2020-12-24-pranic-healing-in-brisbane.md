@@ -19,4 +19,4 @@ Pranic healing influences your natural life force to bring about a healthier phy
 
 Pranic Healing is a no-touch modality where all types of illnesses can be treated using ‘chi’ or pranic energy.
 
-Contact us today about your next appointment!
+[Contact us today about your next appointment!](https://www.google.com/maps/d/edit?mid=1aF-FaVJ-Qhg5KNFFcEZae1NNNfE7sLRL&usp=sharing "Brisbane Healer")
