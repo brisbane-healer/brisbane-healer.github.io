@@ -14,7 +14,7 @@
     <script>
       var tripetto = TripettoServices.init({
         token:
-          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiRzFLVVRMR2JQMGtuY0Z1QkUyR25Ub2VhKzFEZjU2UXRWNFJ2K05YRWJrWT0iLCJkZWZpbml0aW9uIjoiYmIvTk5CeW11UUdBeWdMY3BmZlhOYU9VaFlUU2hlZURFTUo1WHE3K2tIbz0iLCJ0eXBlIjoiY29sbGVjdCJ9.hLz694Py6JaFE-11vTEUPrIdP6OqPHiJ7ZRDP0dHeGM",
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiazh0YzRPdVNmeEhDc2g1WjVIbDR6aWhSMTJGUENTemErdDAwRFp6WW9nUT0iLCJkZWZpbml0aW9uIjoiQzZXZDFhY2M1RjRtMkE2dkQvNktRd3BiQnF6T2ZEYXpuODEzREZuNjB0Yz0iLCJ0eXBlIjoiY29sbGVjdCJ9.lERBt9hOlhVbjRoie8GdZ5LIC_DjTJ4DkKgrirFMXKI",
       });
 
       TripettoAutoscroll.run({
@@ -26,7 +26,8 @@
         translations: tripetto.translations,
         attachments: tripetto.attachments,
         onSubmit: tripetto.onSubmit,
-        persistent: true,
+        snapshot: tripetto.snapshot,
+        onPause: tripetto.onPause,
       });
     </script>
   </body>
