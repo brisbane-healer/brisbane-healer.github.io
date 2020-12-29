@@ -1,3 +1,4 @@
+[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/5hye.svg)](https://betteruptime.com/?utm_source=status_badge)
 [![Backup Status](https://cloudback.it/badge/brisbane-healer/brisbane-healer.github.io)](https://cloudback.it)
 
 
