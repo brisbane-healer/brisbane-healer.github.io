@@ -3,7 +3,7 @@ name: Golden Path - Brisbane Healer
 description: Pranic healing located in Brisbane, QLD, Australia
 logo: assets/images/logo.png
 favicon: assets/images/favicon.ico
-email: brisbanehealer@gmail.com
+email: pranabrisbane@gmail.com
 mailchimp-list: https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b
 include:
   - _pages
@@ -20,7 +20,7 @@ authors:
     site: https://brisbanehealer.com.au
     avatar: "/assets/images/avatar1.jpg"
     bio: Hi, my name is Bryna, owner of Golden Path.
-    email: brisbanehealer@gmail.com
+    email: pranabrisbane@gmail.com
     twitter:
 defaults:
   - scope:
